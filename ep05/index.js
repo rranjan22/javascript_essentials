@@ -97,3 +97,11 @@ const calculate = function(radius, Formula) {
 
 console.log(calculate(radius, areaFormula));
 console.log(calculate(radius, circumFormula));
+
+
+//Arrow Function
+const multiply = (num1, num2) => {
+  return num1*num2;
+}
+
+console.log(multiply(2,3));
