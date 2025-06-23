@@ -26,7 +26,9 @@ sumOfTwoNumbers(5, 7); //12
 //callback function
 //it depends on some other function
 //when we pass a function as parameters in some other function and receive as an argument
-//js is single thread means it executes the code line by line
+//js is single thread means it executes the code line by line -> js does one task at a time(no multitasking)
+//js is synschronus programming language-> one after the other
+//js doesnot wait for anyone, it executes the code line by line
 
 // const doSomething = function(callback) {
 //   console.log("samose ban rahe hai..");
